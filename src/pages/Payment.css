@@ -1,0 +1,323 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&family=Lemonada:wght@600&family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap");
+@import url("//db.onlinewebfonts.com/c/feb5fbe240f4a3e4aee19523b6c905b4?family=Farrington-7B-Qiqi");
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+
+.containerd {
+  margin: 8% auto;
+  max-width: 30%;
+  height: 400px;
+  padding: 10px;
+  padding-left: 1.5%;
+  background-color: white;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: grey;
+  overflow: hidden;
+
+  box-shadow: 10px 10px 5px -6px rgba(109, 105, 105, 0.75);
+}
+
+.card-payment {
+  margin-top: 30px;
+  transition: 0.5s;
+  width: 90%;
+  height: 200px;
+  border-radius: 15px;
+  margin-top: 15px;
+  background-color: black;
+  /* background-image: url(""); */
+  -webkit-box-shadow: 10px 10px 5px -6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px -6px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px -6px rgba(0, 0, 0, 0.75);
+}
+
+.card-position {
+  position: relative;
+}
+
+.payment-card {
+  width: 100px;
+  position: absolute;
+  right: 0px;
+  top: 130px;
+}
+
+.expirition-card {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-number {
+  position: absolute;
+  left: 20px;
+  bottom: -130px;
+  color: white;
+  flex-direction: column;
+  align-items: flex-start;
+  width: fit-content;
+  font-family: "Russo One", sans-serif;
+}
+
+.card-name {
+  display: flex;
+  position: absolute;
+  max-width: 120px;
+  left: 20px;
+  bottom: -190px;
+  color: white;
+  flex-direction: column;
+  align-items: flex-start;
+  width: fit-content;
+  font-family: "Farrington-7B-Qiqi";
+  overflow: hidden;
+}
+
+.card-surname {
+  display: flex;
+  position: absolute;
+  max-width: 20px;
+  left: 120px;
+  bottom: -190px;
+  color: white;
+  flex-direction: column;
+  align-items: flex-start;
+  width: fit-content;
+  font-family: "Farrington-7B-Qiqi";
+  overflow: hidden;
+}
+
+.card-mm {
+  display: flex;
+  position: absolute;
+  max-width: 20px;
+  left: 190px;
+  bottom: -185px;
+  color: white;
+  flex-direction: column;
+  align-items: flex-start;
+  width: fit-content;
+  font-family: "Russo One", sans-serif;
+  overflow: hidden;
+  font-size: 14px;
+}
+
+.card-yy {
+  display: flex;
+  position: absolute;
+  width: 40px;
+  left: 215px;
+  bottom: -185px;
+  color: white;
+  flex-direction: column;
+  align-items: flex-start;
+  width: fit-content;
+  font-family: "Russo One", sans-serif;
+  overflow: hidden;
+  font-size: 14px;
+}
+
+.sim {
+  width: 100px;
+  height: 80px;
+  position: absolute;
+  left: -10px;
+  bottom: -90px;
+}
+
+.first-div input {
+  background-color: #f3f3f3;
+  padding: 0px 10px;
+  margin-top: 6px;
+  width: 39.5%;
+  height: 37px;
+  font-family: "Open Sans", sans-serif;
+  border: 0;
+  border-radius: 4px;
+  transition: all 250ms ease-in-out;
+}
+
+.second-div input {
+  background-color: #f3f3f3;
+  margin-top: 6px;
+  padding: 0px 10px;
+  min-width: 26.5em;
+  height: 37px;
+  font-family: "Open Sans", sans-serif;
+  border: 0;
+  border-radius: 4px;
+  transition: all 250ms ease-in-out;
+}
+
+.third-div {
+  background-color: #f3f3f3;
+  display: flex;
+  margin-top: 6px;
+  flex-direction: row;
+  padding-left: 10px;
+  align-items: center;
+  width: 16em;
+  height: 37px;
+  font-family: "Open Sans", sans-serif;
+  border: 0;
+  border-radius: 4px;
+  transition: all 250ms ease-in-out;
+  color: grey;
+  font-size: 14px;
+}
+
+.fourth-div {
+  background-color: #f3f3f3;
+  display: flex;
+  margin-top: 6px;
+  margin-left: 4px;
+  flex-direction: row;
+  padding-left: 10px;
+  align-items: center;
+  width: 9em;
+  height: 37px;
+  font-family: "Open Sans", sans-serif;
+  border: 0;
+  border-radius: 4px;
+  transition: all 250ms ease-in-out;
+  color: grey;
+  font-size: 14px;
+}
+
+.expirition {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+}
+
+.select-items {
+  background-color: #f3f3f3;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(255, 255, 255, 0.1) transparent;
+}
+
+
+.cvv {
+  width: 50px;
+  background-color: #f3f3f3;
+  border: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.cvv:focus {
+  outline: none;
+}
+
+.select-item:focus {
+  outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono|Rationale');
+
+
+.container-card{
+    box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	padding: 3rem 2rem;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.form-card{
+	margin-right: 5rem;	
+}
+.input-group-card{
+	width: 100%;
+	display:flex;
+	flex-direction: column;
+	margin: .5rem;
+}
+
+
+.card-payment{
+	background: linear-gradient(to bottom right,#2C3E50,#7f8c8d);
+	color: #ECECEC;
+	width:  8.5cm;
+	height: 5.4cm;
+	border-radius: 10px;
+	padding: .8cm .8cm .4cm;
+}
+
+.chip-card{
+	width: 1.1cm;
+	height: .8cm;
+	margin-top: 1cm;
+	margin-bottom: .3cm;
+	border: 1px solid gold;
+	border-radius: 5px;
+}
+.card-informations{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.card-numbers{
+	font-family: 'Rationale', sans-serif;
+	font-size: 18.90px;
+	height: 18.90px;
+	letter-spacing: 3.77px;
+	width: 6.8cm;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: .4cm;
+}
+
+.card-information{
+	font-family: 'Cutive Mono', monospace;
+	display: flex;
+	flex-direction: column;
+	font-size: .73rem;
+}
+
+.card-letter{
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.card-date-expire{
+	display: flex;
+    align-self: center;
+    flex-direction: row;
+    align-items: center;
+}
+.card-date-expire > p{
+	display: inline-block;
+}
+.date-expire__title{
+	font-family: 'Arial', sans-serif;
+	font-size: .24375rem;
+	margin-right: 5px;
+	width: 20px;
+	text-align: right;
+}
+
+.card-name{
+	letter-spacing: 1px;
+}
+
+.logo{
+	width: 20%;
+	height: 40px;
+	margin-left: auto;
+}
+
+.logo img{
+	width: 100%;
+}
