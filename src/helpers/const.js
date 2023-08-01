@@ -1,3 +1,3 @@
-export const API = "http://localhost:8000/products";
+export const API = "https://deploy-db-json.vercel.app/products";
 
-export const API_COM = "http://localhost:8000/commit";
+export const API_COM = "https://deploy-db-json.vercel.app/commit";
